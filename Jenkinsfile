@@ -24,5 +24,13 @@ pipeline {
             }
         }
     }
+
+    stages {
+        stage('Cleanup') {
+            steps {
+                echo '--- cleanup success ---'
+            }
+        }
+    }
     
 }
