@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo '--- build success ---'
 
-                sh 'node -v'
+                bat 'node -v'
             }
         }
 
